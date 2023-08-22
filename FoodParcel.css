@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+body {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  background-color: #fefefe;
+  overflow-x: hidden;
+}
+ 
+ 
+ .main{
+    color: #1ca68a;
+    width: 100%;
+    /*min-height: 10vh;*/
+    min-height: 20vh;
+    display: flex;
+    display: block;
+   /* text-align: center;*/
+   margin-left: 90px;
+  }
+ /* id of next button 
+ #button1 { 
+  outline: none;
+  border: 3px solid #fff;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  background: none;
+  font-weight: 600;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+} 
+
+
+&.lined.thin{
+  border:solid 2px #41403E;
+}
+
+*/
+
+.button{
+  padding: 5px 20px;
+  color: white;
+  background-color: #1ca68a;
+  text-align: center;
+  text-transform: uppercase;
+  position:relative;
+   left:500px; 
+   top:2px;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+  .qclass{
+    color: #1ca68a;
+    font-size: 3em;
+    margin-left: 50px;
+  }
+
+  .card{
+    float:right;
+    --left-color: #128D77; 
+    --right-color: #9edcd1;
+    color: #128D77;
+    width:30em ;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 30%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+    }
+
+
+  .additionalOptions
+  {
+    margin-left: 90px;
+    min-height: 20vh;
+    font-size:.75em
+  }
+  .additionalOptions2
+  {
+    margin-left: 90px;
+    min-height: 20vh;
+    font-size:.75em
+  }
+
+
+
+th{
+  --left-color: #1ca68a;
+  --right-color: #96dbe2;
+  background-image: linear-gradient(to right, var(--left-color), var(--right-color));
+    height: 20px;
+    border: 2px solid #1ca68a;
+    
+    
+    
+}
+td{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #1ca68a;
+  border: 2px solid #1ca68a;
+ 
+     
+}
+
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10%;
+  --left-color: #128D77;
+  --right-color: #96dbe2;
+  background-image: linear-gradient(to right, var(--left-color), var(--right-color));
+  color: white;
+  justify-content: space-between;
+
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav ul li a{
+  padding: 5px 20px;
+  color: #1ca68a;
+  background: rgba(255, 255, 255, 0.712);
+  border-radius: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover{
+    color:#1ca68a;
+}
+
+.cta{
+    background-color: #1ca68a;
+    color: #FFF;
+}
+
+.cta:hover{
+    background-color: #1ca68a;;
+    color: #FFF;
+}
+
+
+.title{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  display: flex;
+  justify-content: center;
+  color: #1ca68a; 
+  font-size: 4.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+.button{
+    padding: 5px 20px;
+    color: white;
+    background-color: #1ca68a;
+    text-align: center;
+    text-transform: uppercase;
+    position:relative;
+     left:500px; 
+     top:2px;
+    border-radius: 20px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+
+.info h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.footer_section {
+ 
+  /*display: flex;*/
+  flex-direction: row;
+  /*align-items: center;*/
+  padding: 60px 0 15px 0;
+  --left-color: #128D77;
+  --right-color: #96dbe2;
+  background-image: linear-gradient(to right, var(--left-color), var(--right-color));
+  color: white;
+  justify-content: space-between;
+
+}
+
+.footer_section h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer_section .footer_col {
+  margin-bottom: 30px;
+}
+
+.footer_section .footer_contact .contact_link_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer_section .footer_contact .contact_link_box a {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.footer_section .footer_contact .contact_link_box a i {
+  margin-right: 5px;
+}
+
+.footer_section .footer_contact .contact_link_box a:hover {
+  color: #128d77;
+}
+  
+  .footer_section .footer_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .footer_section .footer_links a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .footer_section .footer_links a:hover {
+    color: #128d77;
+  }
+  
+  .footer_section form input {
+    border: none;
+    background-color: #fefefe;
+    width: 100%;
+    height: 45px;
+    color: #1ca68a;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 15px;
+  }
+  
+  .footer_section form input::-webkit-input-placeholder {
+    color: #777;
+  }
+  
+  .footer_section form input:-ms-input-placeholder {
+    color: #777;
+  }
+  
+  .footer_section form input::-ms-input-placeholder {
+    color: #777;
+  }
+  
+  .footer_section form input::placeholder {
+    color: #777;
+  }
+  
+  .footer_section form button {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: #128d77;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid #128d77;
+    margin-top: 15px;
+  }
+  
+  .footer_section form button:hover {
+    background-color: transparent;
+    color: #128d77;
+  }
+  
+  .footer_section .footer-info {
+    text-align: center;
+  }
+  
+  .footer_section .footer-info p {
+    color: #ffffff;
+    padding: 25px 0;
+    margin: 0;
+  }
+  
+  .footer_section .footer-info p a {
+    color: inherit;
+  }

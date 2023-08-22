@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+   
+  <title>Ghaith</title>
+  
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/FoodParcel.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="FoodParcel.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <header>
+    <h3>Ghaith</h3>
+    <nav>
+        <ul>
+            <li><a href="HP.html">Home</a></li>
+            <li><a href="HP.html">Servicse</a></li>
+        </ul>
+    </nav>
+</header>
+  
+<!--  cardddd section starts-->
+<div class="card" >
+ 
+  <img src="food.png" alt="" class="center"
+  width="400" 
+  height="400"
+  >
+
+<div class="info" >
+    <h1>Why do we contribute?</h1>
+
+    <h4>  Be a volunteer to make your presence in this life more beautiful ! </h4>
+    <h4>  Our happiness begins within us, and the happiness in giving may exceed happiness in what others give us !</h4>
+  </div>
+</div>
+
+
+
+<!--  second section starts-->
+
+<section class="cards" id="Serv" >
+  
+  <h1 class="title">Donate food parcels</h1>
+
+  <div class="qclass">
+  <label style="font-size:.75em"><strong>Choose the food parcel you want to donate:</strong></label><br>
+    
+<!--parcels-->
+    <div class="main">
+   <input style="height:20px; width:20px;" type="radio" id="oneTOtwo" value="oneTOtwo" name="parcle"><label style="font-size:.5em"> Food parcel for 1-2 persons.....<strong>18 JD</strong></label><br>
+   <input style="height:20px; width:20px;" type="radio" id="threeTOfive" value="threeTOfive" name="parcle"><label style="font-size: .5em"> Food parcel for 3-5 persons.....<strong>35 JD</strong></label><br>
+   <input style="height:20px; width:20px;" type="radio" id="sixTOseven" value="sixTOseven" name="parcle"><label style="font-size:.5em"> Food parcel for 6-7 persons.....<strong>50 JD</strong></label><br>
+    </div>
+
+
+<!--volanteer?-->
+  <label style="font-size:.75em"><strong>Do you wont to be a volunteer?</strong></label><br>
+  <input style="height:20px; width:20px;" type="radio" id="volanteerYES" value="volanteerYES" name="volanteer"><label style="font-size:.5em"> Yes! </label><br>
+  <input style="height:20px; width:20px;" type="radio" id="volanteerNO" value="volanteerNO" name="volanteer"><label style="font-size:.5em"> No </label><br>
+    
+  <div class="additionalOptions" id="additionalOptions" style="display: none;">
+     <strong>Choose how you would like to volunteer:</strong><br>
+     <input style="height:20px; width:20px;" type="radio" name="additionalOption" value="addOption1" id="addOption1"> <label style="font-size:.5em">Volunteer to prepare food parcels</label><br>
+     <input style="height:20px; width:20px;" type="radio" name="additionalOption" value="addOption2" id="addOption2"> <label style="font-size:.5em">AVolunteer to provide delivery services to families' houses</label><br>
+     <button   class="button" type="button" id="button1">Next</button>
+  </div>
+    
+    <script>
+     document.getElementById("volanteerYES").addEventListener("click",
+   
+   function() {
+    document.getElementById("additionalOptions").style.display = "";
+     });
+    </script>
+
+
+
+<!--slots?-->
+  <div class="additionalOptions2" id="additionalOptions2" style="display: none;">
+    <strong>Select the most convenient time slot for your volunteering activity:</strong><br>
+    <input style="height:20px; width:20px;" type="radio" name="additionalOption2" value="addOptionA" id="addOptionA"> <label style="font-size:.5em"> from 9 AM to 12 PM</label><br>
+    <input style="height:20px; width:20px;" type="radio" name="additionalOption2" value="addOptionB" id="addOptionB"> <label style="font-size:.5em"> from 12 PM to 3 PM</label><br>
+    <input style="height:20px; width:20px;" type="radio" name="additionalOption2" value="addOptionB" id="addOptionB"> <label style="font-size:.5em"> from 3 PM to 6 PM</label><br>
+  </div>
+
+  <script>
+    document.getElementById("button1").addEventListener("click",
+  
+  function() {
+   document.getElementById("additionalOptions2").style.display = "";
+    });
+   </script>
+
+  </div><!--end of qclass-->
+</section>
+
+
+
+
+
+<!-- end second section -->
+<a  class="button" id="butt">submit</a>
+  <a class="button" id="butt"  >the response..</a>
+
+<p></p>
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+    
+    </div>
+  </footer>
+  <!-- footer section -->
+
+</body>
+
+</html>

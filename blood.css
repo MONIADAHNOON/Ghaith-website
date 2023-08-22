@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+body {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  background-color: #fefefe;
+  overflow-x: hidden;
+}
+.container {
+  display: flex; /* Use flexbox to create a flex container */
+  align-items: center; /* Vertically align items */
+  }
+ .main{
+    width: 100%;
+    min-height: 35vh;
+    display: flex;
+    display: block;
+    text-align: center;
+    margin-left: 510px;
+}
+
+.h3{
+  color: #1ca68a;
+}
+th{
+  --left-color: #1ca68a;
+  --right-color: #96dbe2;
+  background-image: linear-gradient(to right, var(--left-color), var(--right-color));
+    height: 20px;
+    border: 2px solid #1ca68a;
+    
+    
+    
+}
+td{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #1ca68a;
+  border: 2px solid #1ca68a;
+ 
+     
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*padding: 10px 10%;-->*/
+    background-color: #1ca68a;
+    justify-content: space-between;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav ul li a{
+  padding: 5px 20px;
+  color: #1ca68a;
+  background: rgba(255, 255, 255, 0.712);
+  border-radius: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover{
+    color:#1ca68a;
+}
+
+.cta{
+    background-color: #1ca68a;
+    color: #FFF;
+}
+
+.cta:hover{
+    background-color: #1ca68a;;
+    color: #FFF;
+}
+
+
+.title{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  display: flex;
+  justify-content: center;
+  color:#1ca68a;    
+  font-size: 4.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  --left-color: #128D77;
+  --right-color: #9EDCD1;
+  color: #128D77;
+  width: 30em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 30%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 20px auto; /* Center horizontally by setting margin to auto */
+  text-align: center; /* Center text within the card */
+}
+
+
+.time-and-place {
+  display: flex;
+  margin-top: 20px;
+  text-align: center; /* Center text within the time-and-place div */
+}
+
+.info h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.footer_section {
+  background: #128d77;
+  color: #ffffff;
+  padding: 60px 0 15px 0;
+  position: relative;
+}
+
+.footer_section h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer_section .footer_col {
+  margin-bottom: 30px;
+}
+
+.footer_section .footer_contact .contact_link_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer_section .footer_contact .contact_link_box a {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.footer_section .footer_contact .contact_link_box a i {
+  margin-right: 5px;
+}
+
+.footer_section .footer_contact .contact_link_box a:hover {
+  color: #128d77;
+}
+  
+  .footer_section .footer_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .footer_section .footer_links a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .footer_section .footer_links a:hover {
+    color: #128d77;
+  }
+  
+  .footer_section form input {
+    border: none;
+    background-color: #fefefe;
+    width: 100%;
+    height: 45px;
+    color: #1ca68a;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 15px;
+  }
+  
+  .footer_section form input::-webkit-input-placeholder {
+    color: #777;
+  }
+  
+  .footer_section form input:-ms-input-placeholder {
+    color: #777;
+  }
+  
+  .footer_section form input::-ms-input-placeholder {
+    color: #777;
+  }
+  
+  .footer_section form input::placeholder {
+    color: #777;
+  }
+  
+  .footer_section form button {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: #128d77;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid #128d77;
+    margin-top: 15px;
+  }
+  
+  .footer_section form button:hover {
+    background-color: transparent;
+    color: #128d77;
+  }
+  
+  .footer_section .footer-info {
+    text-align: center;
+  }
+  
+  .footer_section .footer-info p {
+    color: #ffffff;
+    padding: 25px 0;
+    margin: 0;
+  }
+  
+  .footer_section .footer-info p a {
+    color: inherit;
+  }
+
+   /* Style the input box */
+   input[type="datetime-local"] {
+    padding: 8px;
+    border: 1px solid #128d77;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    width: 200px;
+}
+
+/* Style the date picker arrow (for WebKit browsers) */
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+   /* background: transparent;*/
+   border: 1px solid #128d77;
+    color: #1ca68a; /* You can change the color */
+    cursor: pointer;
+}
+
+/* Style the date text (for WebKit browsers) */
+input[type="datetime-local"]::-webkit-datetime-edit-text,
+input[type="datetime-local"]::-webkit-datetime-edit-month-field,
+input[type="datetime-local"]::-webkit-datetime-edit-day-field {
+    color: #1ca68a; /* You can change the color */
+    
+}
